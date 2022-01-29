@@ -62,7 +62,7 @@
     right: 1.5rem;
     font-size: 1.6rem;
     cursor: pointer;
-    color: white;
+    color: var(--white-color);
 }
 .overlay-container {
     opacity: 0.3;
@@ -71,5 +71,5 @@
     position: absolute;
     top: 15rem;
     left: 9rem;
-    color: black;
+    color: var(--black-color);
 }

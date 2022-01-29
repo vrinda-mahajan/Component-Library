@@ -20,6 +20,8 @@ body {
     --text-color:#404156;
     --heading-color:#3e4152;
     --box-shadow:#c2ccca;
+    --white-color:#fff;
+    --black-color:black;
 
     /* alerts */
     --info-bg-color:#bbeeff;

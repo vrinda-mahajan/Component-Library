@@ -7,20 +7,20 @@
 /* primary button */
 .primary-btn {
     background-color: var(--primary-color2);
-    color: white;
+    color: var(--white-color);
 }
 .primary-btn:hover {
     background-color: var(--btn-primary-hover-color);
 }
 /* primary outline btn */
 .primary-outline-btn {
-    background-color: white;
+    background-color: var(--white-color);
     color: var(--primary-color2);
     border: thin solid var(--primary-color2);
 }
 .primary-outline-btn:hover {
     background-color: var(--btn-primary-hover-color);
-    color: white;
+    color: var(--white-color);
 }
 /* secondary btn */
 .secondary-btn {
@@ -32,7 +32,7 @@
 }
 /* secondary outline btn */
 .secondary-outline-btn {
-    background-color: white;
+    background-color: var(--white-color);
     color: var(--primary-color);
     border: thin solid var(--primary-color);
 }
@@ -42,14 +42,14 @@
 }
 /* link button */
 .link-btn {
-    background-color: white;
+    background-color: var(--white-color);
     color: var(--primary-color2);
 }
 .link-btn:hover {
     color: var(--primary-color);
 }
 .underline-link-btn {
-    background-color: white;
+    background-color: var(--white-color);
     color: var(--primary-color2);
 }
 .underline-link-btn:hover {
@@ -58,7 +58,7 @@
 }
 /* icon button */
 .icon-btn {
-    background-color: white;
+    background-color: var(--white-color);
     border-radius: 50%;
     height: 4rem;
     width: 4rem;
@@ -73,7 +73,7 @@
 /* icon inside button */
 .icon-inside-btn {
     background-color: var(--primary-color2);
-    color: white;
+    color: var(--white-color);
 }
 .icon-inside-btn:hover {
     background-color: var(--btn-primary-hover-color);
@@ -82,7 +82,7 @@
 .floating-btn {
     border-radius: 50%;
     background-color: var(--primary-color2);
-    color: white;
+    color: var(--white-color);
     height: 5rem;
     width: 5rem;
     padding: 1rem;

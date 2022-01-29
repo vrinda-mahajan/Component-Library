@@ -1,0 +1,7 @@
+@import url(src/app.css);
+
+.container {
+    margin: 2rem;
+    padding: 1rem;
+    border-bottom: thin solid var(--box-shadow);
+}

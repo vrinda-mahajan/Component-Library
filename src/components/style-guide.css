@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
 html {
     font-size: 62.5%;
 }
@@ -16,9 +16,12 @@ body {
 :root {
     --primary-color:#53c050;
     --primary-color2:#1a3826;
+    --background-color:#f4f6fa;
     --text-color:#404156;
     --heading-color:#3e4152;
-    --box-shadow:#dce7e5;
+    --box-shadow:#c2ccca;
+    --white-color:#fff;
+    --black-color:black;
 
     /* alerts */
     --info-bg-color:#bbeeff;
@@ -30,6 +33,10 @@ body {
     --warning-color:#a36708;
     --success-color:#227700;
     --error-color:#df212b;
+
+    /* button */
+    --btn-primary-hover-color: #365a45;
+    --btn-sec-hover-color:#52a14f;
 }
 /* typography */
 h1 {
@@ -50,6 +57,10 @@ h5 {
 h6 {
     font-size: 1.5rem;
 }
+p {
+    font-size: 1.6rem;
+}
+
 /* gutter */
 .p-right {
 padding-right: 0.5rem;
@@ -63,6 +74,12 @@ padding-right: 0.5rem;
 .p2-left {
     padding-left: 2rem;
 }
+.p1-right {
+    padding-right: 1rem;
+}
+.p2-right {
+    padding-right: 2rem;
+}
 .p1 {
     padding: 1rem;
 }
@@ -75,6 +92,12 @@ padding-right: 0.5rem;
 .m2 {
     margin: 2rem;
 }
+.m-left-auto {
+    margin-left: auto;
+}
+.m-right-auto {
+    margin-right: auto;
+}
 /* utils */
 .text-decor-none {
     text-decoration: none;
@@ -84,6 +107,10 @@ padding-right: 0.5rem;
 }
 .flex-r {
     display: flex;
+}
+.flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
 }
 .flex-c {
     display: flex;
@@ -102,8 +129,13 @@ padding-right: 0.5rem;
     display: none;
 }
 /* media queries */
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 760px) {
 	html {
-        font-size: 50%;
+        font-size: 55%;
+    }
+}
+@media screen and (max-width: 450px) {
+	html {
+        font-size: 40%;
     }
 }

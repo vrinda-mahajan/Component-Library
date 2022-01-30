@@ -26,7 +26,7 @@
 /* secondary btn */
 .secondary-btn {
     background-color: var(--primary-color);
-    color: var(--text-color);
+    color: var(--white-color);
 }
 .secondary-btn:hover {
     background-color: var(--btn-sec-hover-color);
@@ -91,4 +91,9 @@
 }
 .floating-btn:hover{
     background-color: var(--btn-primary-hover-color);
+}
+
+.disabled-btn{
+    opacity: 0.65;
+    pointer-events: none;
 }

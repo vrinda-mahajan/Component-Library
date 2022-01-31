@@ -5,69 +5,227 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/atom-one-dark.min.css">
     <link rel="stylesheet" href="styles.css" />
     <title>Documentation</title>
 </head>
 <body>
-    <h3 class="p2">Flora UI Components</h3>
+
+    <!-- Navbar -->
+    <nav class="flex-r navigation-container">
+        <div class="m1 p2 nav-logo flex-r">
+            <i class="ui-icon fab fa-pagelines"></i>
+            <span class="ui-name">Flora<span class="UI">UI</span> </span>
+        </div>
+        <ul class="m1 p1 nav-pills list-non-bullet align-center">
+            <li class="p1"><a class="link text-decor-none" href="./index.html">Home</a></li>
+            <li class="p1"><a class="link text-decor-none" href="./docs.html">Documentation</a></li>
+            <li class="p1"><a class="link nav-icon" href="https://github.com/vrinda-mahajan"><i class="fab fa-github"></i></a></li>
+            <li class="p1"><a class="link nav-icon" href="https://twitter.com/vrinda_mahajan"><i class="fab fa-twitter"></i></a></li>
+            <li class="p1"><a class="link nav-icon" href="https://www.linkedin.com/in/vrinda-mahajan-7a2b2a20b/"><i class="fab fa-linkedin-in"></i></a></li>
+        </ul>
+    </nav>
+
+    <main class="flex-r">
+
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+
+        <ul class="m1 p1 list-non-bullet">
+            <p class="sidebar-heading">Components</p>
+
+            <li class="p1"><a class="link text-decor-none" href="#Alert">Alerts</a></li>
+            <li class="p1"><a class="link text-decor-none" href="#Avatar">Avatars</a></li>
+            <li class="p1"><a class="link text-decor-none" href="#Badge">Badges</a></li>
+            <li class="p1"><a class="link text-decor-none" href="#Button">Buttons</a></li>
+            <li class="p1"><a class="link text-decor-none" href="#Card">Cards</a></li>
+            <li class="p1"><a class="link text-decor-none" href="#Image">Images</a></li>
+            <li class="p1"><a class="link text-decor-none" href="#Input">Inputs</a></li>
+        </ul>
+    </aside>
+        
+
+    <!-- Documentation Content -->
+    <div class="doc-content">
 
     <!-- Alert Component -->
-    <h4 class="p2-left">Alerts</h4>
-    <div class="container">
-        <h6>Primary alert</h6>
-        <div class="alert primary-alert"> <i class="fas fa-info-circle"></i> This is a primary alert.</div>
-        <h6>Secondary alert</h6>
-        <div class="alert info-alert"> <i class="fas fa-info-circle"></i> This is an info message.</div>
-        <h6>Success alert</h6>
-        <div class="alert success-alert"> <i class="fas fa-check"></i> This is a success message.</div>
-        <h6>Warning alert</h6>
-        <div class="alert warning-alert"> <i class="fas fa-exclamation-triangle"></i> This is a warning message.</div>
-        <h6>Error alert</h6>
-        <div class="alert error-alert"> <i class="fas fa-times-circle"></i> This is a error message.</div>
+        <section id="Alert">
+            <h2 class="component-heading">Alerts</h2>
+            <p class="component-desc">Alerts are the important messages that are used to grab the user's attention without interrupting the user flow. </p>
+            <h5 class="component-subheading">Primary alert</h5>
+            <div class="alert primary-alert"> <i class="fas fa-info-circle"></i> This is a primary alert.</div>
+<pre>
+<code class="html">
+
+    <div class="alert primary-alert"> 
+        <i class="fas fa-info-circle"></i> This is a primary alert.
     </div>
-    <div class="container">
-        <h6>Alert with close button</h6>
+
+</code>
+</pre>
+<hr>
+
+        <h5 class="component-subheading">Info alert</h5>         
+        <div class="alert info-alert"> <i class="fas fa-info-circle"></i> This is an info message.</div>
+<pre>
+<code class="html">
+
+    <div class="alert info-alert"> 
+        <i class="fas fa-info-circle"></i> This is an info message.
+    </div>
+    
+</code>
+</pre>
+<hr>
+
+        <h5 class="component-subheading">Success alert</h5>
+        <div class="alert success-alert"> <i class="fas fa-check"></i> This is a success message.</div>
+<pre>
+<code class="html">
+
+    <div class="alert success-alert"> 
+        <i class="fas fa-check"></i> This is a success message.
+    </div>
+        
+</code>
+</pre>
+<hr>
+
+        <h5 class="component-subheading">Warning alert</h5>
+        <div class="alert warning-alert"> <i class="fas fa-exclamation-triangle"></i> This is a warning message.</div>
+<pre>
+<code class="html">
+
+    <div class="alert warning-alert"> 
+        <i class="fas fa-exclamation-triangle"></i> This is a warning message.
+    </div>
+    
+</code>
+</pre>
+<hr>
+
+        <h5 class="component-subheading">Error alert</h5>
+        <div class="alert error-alert"> <i class="fas fa-times-circle"></i> This is a error message.</div>
+<pre>
+<code class="html">
+
+    <div class="alert error-alert"> 
+        <i class="fas fa-times-circle"></i> This is a error message.
+    </div>
+    
+</code>
+</pre>
+<hr>
+
+        <h5 class="component-subheading">Alert with close button</h5>
         <div class="alert primary-alert align-center"> 
             <i class="p-right fas fa-info-circle"></i> This is a primary alert.
             <i class="alert-close-icon far fa-times-circle"></i>
         </div>
+<pre>
+<code class="html">
+
+    <div class="alert primary-alert align-center"> 
+        <i class="p-right fas fa-info-circle"></i> This is a primary alert.
+        <i class="alert-close-icon far fa-times-circle"></i>
     </div>
+    
+</code>
+</pre>
+<hr>
+        </section>
+
 
     <!-- Avatar Component -->
-    <h4 class="p2-left">Avatars</h4>
-    <div class="container">
-        <h6>Avatars in different sizes</h6>
-        <img class="x-sm-avatar avatar" src="https://boredhumans.b-cdn.net/faces2/872.jpg" alt="user" />
-        <img class="sm-avatar avatar" src="https://boredhumans.b-cdn.net/faces2/914.jpg" alt="user" />
-        <img class="md-avatar avatar" src="https://boredhumans.b-cdn.net/faces2/286.jpg" alt="user" />
-        <img class="reg-avatar avatar" src="https://boredhumans.b-cdn.net/faces2/606.jpg" alt="user" />
-        <img class="lg-avatar avatar" src="https://boredhumans.b-cdn.net/faces2/738.jpg" alt="user" />
-        <img class="x-lg-avatar avatar" src="https://boredhumans.b-cdn.net/faces2/674.jpg" alt="user" />
-    </div>
-    <div class="container">
-        <h6>Fallback Avatar</h6>
-        <img class="md-avatar avatar" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__480.png" alt="user" />
-    </div>
+    <section id="Avatar">
+    <h2 class="component-heading">Avatars</h2>
+    <p class="component-desc">Avatar is a circle that represents a user. Typically used with a user's profile image. </p>
+    <h5 class="component-subheading">Image Avatars</h5>
+    <img class="reg-avatar avatar" src="https://boredhumans.b-cdn.net/faces2/914.jpg" alt="user" />
+    <img class="reg-avatar avatar" src="https://boredhumans.b-cdn.net/faces2/286.jpg" alt="user" />
+    <img class="reg-avatar avatar" src="https://boredhumans.b-cdn.net/faces2/606.jpg" alt="user" />
+    <img class="reg-avatar avatar" src="https://boredhumans.b-cdn.net/faces2/738.jpg" alt="user" />
+    <img class="reg-avatar avatar" src="https://boredhumans.b-cdn.net/faces2/674.jpg" alt="user" />
+<pre>
+<code class="html">
+
+    <img class="reg-avatar avatar" src="//boredhumans.b-cdn.net/faces2/286.jpg" alt="user" />
+    
+</code>
+</pre>
+<hr>
+        
+    <h5 class="component-subheading">Avatars in different sizes</h5>
+    <img class="x-sm-avatar avatar" src="https://boredhumans.b-cdn.net/faces2/872.jpg" alt="user" />
+    <img class="sm-avatar avatar" src="https://boredhumans.b-cdn.net/faces2/914.jpg" alt="user" />
+    <img class="md-avatar avatar" src="https://boredhumans.b-cdn.net/faces2/286.jpg" alt="user" />
+    <img class="reg-avatar avatar" src="https://boredhumans.b-cdn.net/faces2/606.jpg" alt="user" />
+    <img class="lg-avatar avatar" src="https://boredhumans.b-cdn.net/faces2/738.jpg" alt="user" />
+    <img class="x-lg-avatar avatar" src="//boredhumans.b-cdn.net/faces2/674.jpg" alt="user" />
+<pre>
+<code class="html">
+
+    <img class="x-sm-avatar avatar" src="//boredhumans.b-cdn.net/faces2/872.jpg" alt="user" />
+
+    <img class="sm-avatar avatar" src="//boredhumans.b-cdn.net/faces2/914.jpg" alt="user" />
+
+    <img class="md-avatar avatar" src="//boredhumans.b-cdn.net/faces2/286.jpg" alt="user" />
+
+    <img class="reg-avatar avatar" src="//boredhumans.b-cdn.net/faces2/606.jpg" alt="user" />
+
+    <img class="lg-avatar avatar" src="//boredhumans.b-cdn.net/faces2/738.jpg" alt="user" />
+
+    <img class="x-lg-avatar avatar" src="//boredhumans.b-cdn.net/faces2/674.jpg" alt="user" />
+
+</code>
+</pre>
+<hr>
+
+    <h5 class="component-subheading">Fallback Avatar</h5>
+    <img class="md-avatar avatar" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__480.png" alt="user" />
+<pre>
+<code class="html">
+
+    <img class="md-avatar avatar" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__480.png" alt="user" />
+    
+</code>
+</pre>
+<hr>
+    </section>
+
 
     <!-- Badge Component -->
-    <h4 class="p2-left">Badges</h4>
-    <div class="container">
-        <h6>Badge on Icons </h6>
-        <div class="m1 badge-container">
-            <i class="badge-icon fas fa-home"></i>
-            <span class="badge right-badge sm-badge">1</span>
-        </div>
-        <div class="m1 badge-container">
-            <i class="badge-icon fas fa-bell"></i>
-            <span class="badge right-badge sm-badge">5</span>
-        </div>
-        <div class="m1 badge-container">
-            <i class="badge-icon fas fa-heart"></i>
-            <span class="badge right-badge sm-badge">9</span>
-        </div>
+    <section id="Badge">
+    <h2 class="component-heading">Badges</h2>
+    <p class="component-desc">Badges can be used for an additional marker for avatar, card or any other component.</p>
+    <h5 class="component-subheading">Badge on Icon</h5>
+    <div class="m1 badge-container">
+        <i class="badge-icon fas fa-home"></i>
+        <span class="badge right-badge sm-badge">1</span>
     </div>
-    <div class="container">
-        <h6>Badge on Avatars </h6>
+    <div class="m1 badge-container">
+        <i class="badge-icon fas fa-bell"></i>
+        <span class="badge right-badge sm-badge">5</span>
+    </div>
+    <div class="m1 badge-container">
+        <i class="badge-icon fas fa-heart"></i>
+        <span class="badge right-badge sm-badge">9</span>
+    </div>
+<pre>
+<code class="html">
+
+    <div class="m1 badge-container">
+        <i class="badge-icon fas fa-home"></i>
+        <span class="badge right-badge sm-badge">1</span>
+    </div>
+    
+</code>
+</pre>
+<hr>
+
+    <h5 class="component-subheading">Badge on Avatars</h5>
+    
         <div class="m1 badge-container">
             <img class="md-avatar avatar" src="https://boredhumans.b-cdn.net/faces2/606.jpg" alt="user" />
             <span class="badge img-badge bottom-left-badge md-badge">4</span>
@@ -76,9 +234,23 @@
             <img class="md-avatar avatar" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__480.png" alt="user" />
             <span class="badge img-badge right-badge lg-badge">7</span>
         </div>
+<pre>
+<code class="html">
+
+    <div class="m1 badge-container">
+        <img class="md-avatar avatar" src="https://boredhumans.b-cdn.net/faces2/606.jpg" alt="user" />
+        <span class="badge img-badge bottom-left-badge md-badge">4</span>
     </div>
-    <div class="container">
-        <h6>Text Badge</h6>
+    <div class="m1 badge-container">
+        <img class="md-avatar avatar" src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460__480.png" alt="user" />
+        <span class="badge img-badge right-badge lg-badge">7</span>
+    </div>
+
+</code>
+</pre>
+<hr>
+
+    <h5 class="component-subheading">Text Badge</h5>
         <div class="m1 badge-container">
             <img class="lg-avatar avatar" src="https://boredhumans.b-cdn.net/faces2/738.jpg" alt="user" />
             <span class="text-badge">NEW</span>
@@ -87,37 +259,111 @@
             <img class="lg-avatar avatar" src="https://boredhumans.b-cdn.net/faces2/738.jpg" alt="user" />
             <span class="text-badge">Popular</span>
         </div>
+<pre>
+<code class="html">
+
+    <div class="m1 badge-container">
+        <img class="lg-avatar avatar" src="//boredhumans.b-cdn.net/faces2/738.jpg" alt="user" />
+        <span class="text-badge">NEW</span>
     </div>
 
+</code>
+</pre>
+<hr>
+
+    </section>
     <!-- Button Component -->
-    <h4 class="p2-left">Buttons</h4>
-    <div class="container">
-        <h6>Primary Buttons</h6>
-        <button class="m1 btn primary-btn">Primary Button</button>
-        <button class="m1 btn primary-outline-btn">Primary Outline</button>
-        <h6>Secondary Buttons</h6>
-        <button class="m1 btn secondary-btn">Secondary Button</button>
-        <button class="m1 btn secondary-outline-btn">Sec Outline Button</button>
-        <h6>Link Button</h6>
-        <button class="m1 btn link-btn">Link Button</button>
-        <button class="m1 btn underline-link-btn">Link Button</button>
-        <h6>Icon Button</h6>
-        <button class="m1 btn icon-btn"><i class="fas fa-shopping-cart"></i></button>
-        <button class="m1 btn icon-inside-btn"><i class="p1-right fas fa-shopping-cart"></i>Add to cart</button>
-        <h6>Floating Button</h6>
-        <button class="m1 btn floating-btn"><i class="fas fa-plus"></i></button>
-        <h6>Disabled Button</h6>
-        <button class="m1 btn primary-btn disabled-btn">Primary Button</button>
-        <button class="m1 btn underline-link-btn disabled-btn">Link Button</button>
-        <button class="m1 btn icon-btn disabled-btn"><i class="fas fa-shopping-cart"></i></button>
-    </div>
+    <section id="Button">
+    <h2 class="component-heading">Buttons</h2>
+    <p class="component-desc">Buttons are also called as call to action. We have range of buttons . You need to add respective classes, and you are good to go.</p>
+    <h5 class="component-subheading">Solid Buttons</h5>
+    <button class="m1 btn primary-btn">Primary Button</button>
+    <button class="m1 btn secondary-btn">Secondary Button</button>
+<pre>
+<code class="html">
+
+    <button class="btn primary-btn">Primary Button</button>
+    <button class="btn secondary-btn">Secondary Button</button>
+
+</code>
+</pre>
+<hr>
+    <h5 class="component-subheading">Outlined Buttons</h5>
+    <button class="m1 btn primary-outline-btn">Primary Outline</button>
+    <button class="m1 btn secondary-outline-btn">Sec Outline Button</button>
+<pre>
+<code class="html">
+
+    <button class="btn primary-outline-btn">Primary Outline</button>
+    <button class="btn secondary-outline-btn">Sec Outline Button</button>
+
+</code>
+</pre>
+<hr>
+    <h5 class="component-subheading">Link Buttons</h5>
+    <button class="m1 btn link-btn">Link Button</button>
+    <button class="m1 btn underline-link-btn">Link Button</button>
+<pre>
+<code class="html">
+
+    <button class="btn link-btn">Link Button</button>
+    <button class="btn underline-link-btn">Link Button</button>
+
+</code>
+</pre>
+<hr>
+    <h5 class="component-subheading">Icon Buttons</h5>
+    <button class="m1 btn icon-btn"><i class="fas fa-shopping-cart"></i></button>
+    <button class="m1 btn icon-inside-btn"><i class="p1-right fas fa-shopping-cart"></i>Add to cart</button>
+<pre>
+<code class="html">
+
+    <button class="btn icon-btn"><i class="fas fa-shopping-cart"></i></button>
+    <button class="btn icon-inside-btn">
+        <i class="p1-right fas fa-shopping-cart"></i>Add to cart
+    </button>
+
+</code>
+</pre>
+<hr>
+
+    <h5 class="component-subheading">Floating Buttons</h5>
+    <button class="m1 btn floating-btn"><i class="fas fa-plus"></i></button>
+<pre>
+<code class="html">
+
+    <button class="btn floating-btn"><i class="fas fa-plus"></i></button>
+
+</code>
+</pre>
+<hr>
+
+    <h5 class="component-subheading">Disabled Buttons</h5>
+    <button class="m1 btn primary-btn disabled-btn">Primary Button</button>
+    <button class="m1 btn underline-link-btn disabled-btn">Link Button</button>
+    <button class="m1 btn icon-btn disabled-btn"><i class="fas fa-shopping-cart"></i></button>
+<pre>
+<code class="html">
+
+    <button class="btn primary-btn disabled-btn">Primary Button</button>
+    <button class="btn underline-link-btn disabled-btn">Link Button</button>
+    <button class="btn icon-btn disabled-btn">
+        <i class="fas fa-shopping-cart"></i>
+    </button>
+
+</code>
+</pre>
+<hr>
+</section>
+
 
     <!-- Card Components -->
-    <h4 class="p2-left">Cards</h4>
-
+    <section id="Card">
+    <h2 class="component-heading">Cards</h2>
+    <p class="component-desc">A card is a sheet used to represent the information related to each other like product details. </p>
+    
     <!-- Card with badge -->
-    <div class="container">
-    <h6>Card with badge</h6>
+    <h5 class="component-subheading">Card with badge</h5>
     <div class="m1 card vertical-card1-container">
         <div class="badge-container">
             <span class="text-badge">NEW</span>
@@ -132,11 +378,31 @@
                 </div>  
         </div>
     </div>
+<pre>
+<code class="html">
+
+    <div class="m1 card vertical-card1-container">
+        <div class="badge-container">
+            <span class="text-badge">NEW</span>
+            <img src="./images/fiddle-leaf.jpg" alt="Fiddle Leaf fig" class="card-img">
+        </div>
+        <div class="p1 card-text-container">
+                <h5 class="card-header">Fiddle Leaf Fig Plant</h5>
+                <div class="card-info">Stock available</div>
+                <div class="align-center">
+                    <p class="card-price">Rs. 550</p>
+                    <button class="btn icon-btn card-icon-btn m-left-auto">
+                        <i class="far fa-heart"></i>
+                    </button>
+                </div>  
+        </div>
     </div>
+</code>
+</pre>
+<hr>
 
     <!-- Card with dismiss -->
-    <div class="container">
-        <h6>Card with dismiss</h6>
+        <h5 class="component-subheading">Card with dismiss</h5>
         <div class="m1 card vertical-card2-container">
             <img src="./images/croton.jpg" alt="croton" class="card-img">
             <i class="card-close-btn fas fa-times"></i>
@@ -148,7 +414,7 @@
                     </div>
                     <p class="card-price m-left-auto">Rs. 499</p>
                 </div>
-                <h6>Neque porro quisquam est qui  adipisci velit...</h6>
+                <h6>Neque porro quisquam est qui adipisci velit...</h6>
                 <div class="card-btns align-center">
                     <button class="btn icon-inside-btn"><i class="p1-right fas fa-shopping-cart"></i>Add to cart</button>
                     <div class="m-left-auto">
@@ -158,11 +424,43 @@
                 </div>
             </div> 
         </div>
+<pre>
+<code class="html">
+
+    <div class="m1 card vertical-card2-container">
+        <img src="./images/croton.jpg" alt="croton" class="card-img">
+        <i class="card-close-btn fas fa-times"></i>
+        <div class="p1 card-text-container">
+            <div class="card-heading flex-r">
+                <div>
+                    <h5 class="card-header">Croton Plant</h5>
+                    <div class="card-info">Stock available</div>
+                </div>
+                <p class="card-price m-left-auto">Rs. 499</p>
+            </div>
+            <h6>Neque porro quisquam est qui adipisci velit...</h6>
+            <div class="card-btns align-center">
+                <button class="btn icon-inside-btn">
+                    <i class="p1-right fas fa-shopping-cart"></i>Add to cart
+                </button>
+                <div class="m-left-auto">
+                    <button class="btn icon-btn card-icon-btn">
+                        <i class="far fa-heart"></i>
+                    </button>
+                    <button class="btn icon-btn card-icon-btn">
+                        <i class="fas fa-ellipsis-v"></i>
+                    </button>
+                </div>               
+            </div>
+        </div> 
     </div>
 
+</code>
+</pre>
+<hr>
+
     <!-- Card with text overlay -->
-    <div class="container">
-        <h6>Card with text overlay</h6>
+        <h5 class="component-subheading">Card with text overlay</h5>
         <div class="m1 card vertical-card2-container">
             <h4 class="overlay-text">Sold Out!</h4>
             <div class="overlay-container">
@@ -187,11 +485,44 @@
             </div> 
         </div>
         </div>
+<pre>
+<code class="html">
+
+    <div class="m1 card vertical-card2-container">
+        <h4 class="overlay-text">Sold Out!</h4>
+        <div class="overlay-container">
+        <img src="./images/croton.jpg" alt="croton" class="card-img">
+        <i class="card-close-btn disabled-btn fas fa-times"></i>
+        <div class="p1 card-text-container">
+            <div class="card-heading flex-r">
+                <div>
+                    <h5 class="card-header">Croton Plant</h5>
+                    <div class="card-info">Stock available</div>
+                </div>
+                <p class="card-price m-left-auto">Rs. 499</p>
+            </div>
+            <h6>Neque porro quisquam est qui  adipisci velit...</h6>
+            <div class="card-btns align-center">
+                <button class="btn icon-inside-btn disabled-btn">
+                    <i class="p1-right fas fa-shopping-cart"></i>Add to cart
+                </button>
+                <div class="m-left-auto">
+                    <button class="btn icon-btn card-icon-btn disabled-btn">
+                        <i class="far fa-heart"></i>
+                    </button>
+                    <button class="btn icon-btn card-icon-btn disabled-btn">
+                        <i class="fas fa-ellipsis-v"></i>
+                    </button>
+                </div>               
+            </div>
+        </div> </div>
     </div>
+</code>
+</pre>
+<hr>
 
     <!-- Text only Card -->
-    <div class="container">
-        <h6>Text only Card</h6>
+        <h5 class="component-subheading">Text only Card</h5>
         <div class="m1 card vertical-card2-container">
             <div class="p1">
                 <h4 class="card-header">Croton Plant</h4>
@@ -201,24 +532,29 @@
                 </div>
             </div> 
         </div>
-    </div>
+<pre>
+<code class="html">
 
-    <!-- Vertical Cards1 -->
-    <h6 class="p2-left">Vertical Cards</h6>
-    <div class="container flex-wrap">
-    <div class="m1 card vertical-card1-container">
-        <img src="./images/fiddle-leaf.jpg" alt="Fiddle Leaf fig" class="card-img">
-        <div class="p1 card-text-container">
-                <h5 class="card-header">Fiddle Leaf Fig Plant</h5>
-                <div class="card-info">Stock available</div>
-                <div class="align-center">
-                    <p class="card-price">Rs. 550</p>
-                    <button class="btn icon-btn card-icon-btn m-left-auto"><i class="far fa-heart"></i></button>
-                </div>  
-        </div>
+    <div class="m1 card vertical-card2-container">
+        <div class="p1">
+            <h4 class="card-header">Croton Plant</h4>
+            <p class="card-text">Lorem ipsum dolor sit amet, consectetur 
+                adipiscing elit. Sed faucibus diam vitae erat ullamcorper elementum. 
+                Donec et ante porta, euismod turpis vitae, tincidunt elit.
+            </p>
+            <div class="card-btns">
+                <button class="btn primary-btn">Learn More </button>          
+            </div>
+        </div> 
     </div>
+    
+</code>
+</pre>
+<hr>
 
-    <!-- Vertical Cards2 -->
+
+    <!-- Vertical Cards -->
+    <h5 class="component-subheading">Vertical Card</h5>
     <div class="m1 card vertical-card2-container">
         <img src="./images/croton.jpg" alt="croton" class="card-img">
         <div class="p1 card-text-container">
@@ -239,13 +575,44 @@
             </div>
         </div> 
     </div>
+<pre>
+<code class="html">
+
+    <div class="m1 card vertical-card2-container">
+        <img src="./images/croton.jpg" alt="croton" class="card-img">
+        <div class="p1 card-text-container">
+            <div class="card-heading flex-r">
+                <div>
+                    <h5 class="card-header">Croton Plant</h5>
+                    <div class="card-info">Stock available</div>
+                </div>
+                <p class="card-price m-left-auto">Rs. 499</p>
+            </div>
+            <h6>Neque porro quisquam est qui  adipisci velit...</h6>
+            <div class="card-btns align-center">
+                <button class="btn icon-inside-btn">
+                    <i class="p1-right fas fa-shopping-cart"></i>Add to cart
+                </button>
+                <div class="m-left-auto">
+                    <button class="btn icon-btn card-icon-btn">
+                        <i class="far fa-heart"></i>
+                    </button>
+                    <button class="btn icon-btn card-icon-btn">
+                        <i class="fas fa-ellipsis-v"></i>
+                    </button>
+                </div>               
+            </div>
+        </div> 
     </div>
+
+</code>
+</pre>
+<hr>
     
     
     <!-- Horizontal Card -->
-    <div class="container">
-        <h6>Horizontal Card</h6>
-    <div class="m1 card flex-r horizontal-card-container">
+        <h5 class="component-subheading">Horizontal Card</h5>
+        <div class="m1 card flex-r horizontal-card-container">
         <div class="badge-container">
             <span class="text-badge">NEW</span>
             <img src="./images/croton.jpg" alt="croton" class="card-img">
@@ -261,35 +628,103 @@
             </div>
         </div> 
     </div>
+<pre>
+<code class="html">
+
+    <div class="m1 card flex-r horizontal-card-container">
+        <div class="badge-container">
+            <span class="text-badge">NEW</span>
+            <img src="./images/croton.jpg" alt="croton" class="card-img">
+        </div>
+        <div class="card-text-container">
+            <h5 class="card-header">Croton Plant</h5>
+            <div class="card-info">Stock available</div>
+            <p class="card-price">Rs. 499</p>
+            <h6>Neque porro quisquam est qui dolorem ipsum quia 
+                dolor sit amet, adipisci velit...</h6>
+            <div class="card-btns align-center">
+                <button class="btn icon-inside-btn">
+                    <i class="p1-right fas fa-shopping-cart"></i>Add to cart</button>
+                <button class="m1 btn primary-outline-btn">Move to Wishlist</button>           
+            </div>
+        </div> 
     </div>
+
+</code>
+</pre>
+<hr>
+</section>
 
 
     <!-- Image Components -->
-    <h4 class="p2-left">Cards</h4>
-    <div class="container">
-        <h6>Responsive Image</h6>
-        <img class="responsive-img" src="./images/res.webp" alt="Responsive img">
-        <h6>Round Image</h6>
-        <img class="round-img" src="./images/succulent.jpg" alt="Succulent">
-    </div>
+    <section id="Image">
+    <h2 class="component-heading">Images</h2>
+    <p class="component-desc">Images can be responsive to fit the parent's width, and also can be customised to be round shaped. </p>
+    <h5 class="component-subheading">Responsive Image</h5>
+    <img class="responsive-img" src="./images/res.webp" alt="Responsive img">
+<pre>
+<code class="html">
+
+    <img class="responsive-img" src="./images/res.webp" alt="Responsive img">
+
+</code>
+</pre>
+<hr>
+
+    <h5 class="component-subheading">Round Image</h5>
+    <img class="round-img" src="./images/succulent.jpg" alt="Succulent">
+<pre>
+<code class="html">
+
+    <img class="round-img" src="./images/succulent.jpg" alt="Succulent">
+
+</code>
+</pre>
+<hr>
+    </section>
+
 
     <!-- Input Component -->
-    <h4 class="p2-left">Input Component</h4>
-    <div class="container">
-        <h6>Textbox</h6>
+    <section id="Input">
+    <h2 class="component-heading">Input Component</h2>
+    <p class="component-desc">Examples of Textbox, Textbox with error styling, and form is given below.</p>
+    <h5 class="component-subheading">Textbox</h5>
         <div class="m1 input-container">
             <label class="input-label" for="input-text">Username</label>
             <input id="name" class="input-field" type="text" placeholder="Username">
         </div>
+<pre>
+<code class="html">
 
-        <h6>Textbox with error styling</h6>
+    <div class="m1 input-container">
+        <label class="input-label" for="input-text">Username</label>
+        <input id="name" class="input-field" type="text" placeholder="Username">
+    </div>
+
+</code>
+</pre>
+<hr>
+
+    <h5 class="component-subheading">Textbox with error styling</h5>
         <div class="m1 input-container">
             <label class="input-label error-label" for="input-text">Username</label>
             <input class="error-field" type="text" placeholder="Username">
             <span class="validation-error">Not valid</span>
         </div>
+<pre>
+<code class="html">
 
-        <h6>Form Example</h6>
+    <div class="m1 input-container">
+        <label class="input-label error-label" for="input-text">Username</label>
+        <input class="error-field" type="text" placeholder="Username">
+        <span class="validation-error">Not valid</span>
+    </div>
+
+</code>
+</pre>
+<hr>
+
+    <h5 class="component-subheading">Form Example</h5>
         <form class="m1 form">
             <div class="input-container">
                 <label class="input-label" for="input-text">Username</label>
@@ -312,8 +747,51 @@
             </div>
             <button class="btn secondary-btn">Submit</button>
         </form>
-    </div>
+<pre>
+<code class="html">
+
+    <form class="m1 form">
+        <div class="input-container">
+            <label class="input-label" for="input-text">Username</label>
+            <input class="input-field" type="text" id="username" placeholder="Username">
+        </div>
+
+        <div class="input-container">
+            <label class="input-label" for="input-field">Phone Number</label>
+            <input class="input-field" type="number" id="number" placeholder="Phone Number">
+        </div>
+
+        <div class="input-container">
+            <label class="input-label" for="input-field">Email</label>
+            <input class="input-field" type="email" id="email" placeholder="Email">
+        </div>
+
+        <div class="checkbox">
+            <input class="checkbox-input" type="checkbox"> 
+            <label class="checkbox-label" >Yes, I accept the terms.</label>
+        </div>
+        <button class="btn secondary-btn">Submit</button>
+    </form>
+
+</code>
+</pre>
+<hr>
+    </section>
+    </main>
+    
+    <!-- Footer -->
+    <footer class="footer">
+        <p>Made with <i class="red-color fas fa-heart"></i> by Vrinda Mahajan </p>
+        <ul class="m2 list-non-bullet">
+            <li class="p1 inline"><a class="footer-icons" href="https://github.com/vrinda-mahajan"><i class="fab fa-github"></i></a></li>
+            <li class="p1 inline"><a class="footer-icons" href="https://twitter.com/vrinda_mahajan"><i class="fab fa-twitter"></i></a></li>
+            <li class="p1 inline"><a class="footer-icons" href="https://www.linkedin.com/in/vrinda-mahajan-7a2b2a20b/"><i class="fab fa-linkedin-in"></i></a></li>
+        </ul>
+        <div>© copyright 2022 Flora UI</div>
+    </footer>
 
     <script src="./src/component.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>

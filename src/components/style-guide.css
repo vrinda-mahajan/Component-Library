@@ -92,6 +92,15 @@ padding-right: 0.5rem;
 .m2 {
     margin: 2rem;
 }
+.m2-top-bottom {
+    margin: 2rem 0;
+}
+.m1-right {
+    margin-right: 1rem;
+}
+.m2-left {
+    margin-left: 2rem;
+}
 .m-left-auto {
     margin-left: auto;
 }
@@ -125,6 +134,9 @@ padding-right: 0.5rem;
     justify-content: center;
     text-align: center;
 } 
+.inline {
+    display: inline;
+}
 .hide{
     display: none;
 }

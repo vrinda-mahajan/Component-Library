@@ -1,5 +1,6 @@
 .btn {
     padding: 1rem 2rem;
+    margin: 1rem 0;
     border: none;
     border-radius: 4px;
     letter-spacing: 1px;
@@ -39,7 +40,7 @@
 }
 .secondary-outline-btn:hover {
     background-color: var(--primary-color);
-    color: var(--text-color);
+    color: var(--white-color);
 }
 /* link button */
 .link-btn {

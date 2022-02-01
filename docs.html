@@ -13,6 +13,7 @@
 
     <!-- Navbar -->
     <nav class="flex-r navigation-container">
+        <i id="bar" class="bar-icon fas fa-bars"></i>
         <div class="m1 p2 nav-logo flex-r">
             <i class="ui-icon fab fa-pagelines"></i>
             <span class="ui-name">Flora<span class="UI">UI</span> </span>
@@ -277,49 +278,49 @@
     <h2 class="component-heading">Buttons</h2>
     <p class="component-desc">Buttons are also called as call to action. We have range of buttons . You need to add respective classes, and you are good to go.</p>
     <h5 class="component-subheading">Solid Buttons</h5>
-    <button class="m1 btn primary-btn">Primary Button</button>
-    <button class="m1 btn secondary-btn">Secondary Button</button>
+    <button class="m1 btn btn-primary">Primary Button</button>
+    <button class="m1 btn btn-secondary">Secondary Button</button>
 <pre>
 <code class="html">
 
-    <button class="btn primary-btn">Primary Button</button>
-    <button class="btn secondary-btn">Secondary Button</button>
+    <button class="btn btn-primary">Primary Button</button>
+    <button class="btn btn-secondary">Secondary Button</button>
 
 </code>
 </pre>
 <hr>
     <h5 class="component-subheading">Outlined Buttons</h5>
-    <button class="m1 btn primary-outline-btn">Primary Outline</button>
-    <button class="m1 btn secondary-outline-btn">Sec Outline Button</button>
+    <button class="m1 btn btn-primary-outline">Primary Outline</button>
+    <button class="m1 btn btn-secondary-outline">Sec Outline Button</button>
 <pre>
 <code class="html">
 
-    <button class="btn primary-outline-btn">Primary Outline</button>
-    <button class="btn secondary-outline-btn">Sec Outline Button</button>
+    <button class="btn btn-primary-outline">Primary Outline</button>
+    <button class="btn btn-secondary-outline">Sec Outline Button</button>
 
 </code>
 </pre>
 <hr>
     <h5 class="component-subheading">Link Buttons</h5>
-    <button class="m1 btn link-btn">Link Button</button>
-    <button class="m1 btn underline-link-btn">Link Button</button>
+    <button class="m1 btn btn-link">Link Button</button>
+    <button class="m1 btn btn-link-underline">Link Button</button>
 <pre>
 <code class="html">
 
-    <button class="btn link-btn">Link Button</button>
-    <button class="btn underline-link-btn">Link Button</button>
+    <button class="btn btn-link">Link Button</button>
+    <button class="btn btn-link-underline">Link Button</button>
 
 </code>
 </pre>
 <hr>
     <h5 class="component-subheading">Icon Buttons</h5>
-    <button class="m1 btn icon-btn"><i class="fas fa-shopping-cart"></i></button>
-    <button class="m1 btn icon-inside-btn"><i class="p1-right fas fa-shopping-cart"></i>Add to cart</button>
+    <button class="m1 btn btn-icon"><i class="fas fa-shopping-cart"></i></button>
+    <button class="m1 btn btn-with-icon"><i class="p1-right fas fa-shopping-cart"></i>Add to cart</button>
 <pre>
 <code class="html">
 
-    <button class="btn icon-btn"><i class="fas fa-shopping-cart"></i></button>
-    <button class="btn icon-inside-btn">
+    <button class="btn btn-icon"><i class="fas fa-shopping-cart"></i></button>
+    <button class="btn btn-with-icon">
         <i class="p1-right fas fa-shopping-cart"></i>Add to cart
     </button>
 
@@ -328,26 +329,26 @@
 <hr>
 
     <h5 class="component-subheading">Floating Buttons</h5>
-    <button class="m1 btn floating-btn"><i class="fas fa-plus"></i></button>
+    <button class="m1 btn btn-floating"><i class="fas fa-plus"></i></button>
 <pre>
 <code class="html">
 
-    <button class="btn floating-btn"><i class="fas fa-plus"></i></button>
+    <button class="btn btn-floating"><i class="fas fa-plus"></i></button>
 
 </code>
 </pre>
 <hr>
 
     <h5 class="component-subheading">Disabled Buttons</h5>
-    <button class="m1 btn primary-btn disabled-btn">Primary Button</button>
-    <button class="m1 btn underline-link-btn disabled-btn">Link Button</button>
-    <button class="m1 btn icon-btn disabled-btn"><i class="fas fa-shopping-cart"></i></button>
+    <button class="m1 btn btn-primary btn-disabled">Primary Button</button>
+    <button class="m1 btn btn-link-underline btn-disabled">Link Button</button>
+    <button class="m1 btn btn-icon btn-disabled"><i class="fas fa-shopping-cart"></i></button>
 <pre>
 <code class="html">
 
-    <button class="btn primary-btn disabled-btn">Primary Button</button>
-    <button class="btn underline-link-btn disabled-btn">Link Button</button>
-    <button class="btn icon-btn disabled-btn">
+    <button class="btn btn-primary btn-disabled">Primary Button</button>
+    <button class="btn btn-link-underline btn-disabled">Link Button</button>
+    <button class="btn btn-icon btn-disabled">
         <i class="fas fa-shopping-cart"></i>
     </button>
 
@@ -374,7 +375,7 @@
                 <div class="card-info">Stock available</div>
                 <div class="align-center">
                     <p class="card-price">Rs. 550</p>
-                    <button class="btn icon-btn card-icon-btn m-left-auto"><i class="far fa-heart"></i></button>
+                    <button class="btn btn-icon card-icon-btn m-left-auto"><i class="far fa-heart"></i></button>
                 </div>  
         </div>
     </div>
@@ -391,7 +392,7 @@
                 <div class="card-info">Stock available</div>
                 <div class="align-center">
                     <p class="card-price">Rs. 550</p>
-                    <button class="btn icon-btn card-icon-btn m-left-auto">
+                    <button class="btn btn-icon card-icon-btn m-left-auto">
                         <i class="far fa-heart"></i>
                     </button>
                 </div>  
@@ -416,10 +417,10 @@
                 </div>
                 <h6>Neque porro quisquam est qui adipisci velit...</h6>
                 <div class="card-btns align-center">
-                    <button class="btn icon-inside-btn"><i class="p1-right fas fa-shopping-cart"></i>Add to cart</button>
+                    <button class="btn btn-with-icon"><i class="p1-right fas fa-shopping-cart"></i>Add to cart</button>
                     <div class="m-left-auto">
-                        <button class="btn icon-btn card-icon-btn"><i class="far fa-heart"></i></button>
-                        <button class="btn icon-btn card-icon-btn"><i class="fas fa-ellipsis-v"></i></button>
+                        <button class="btn btn-icon card-icon-btn"><i class="far fa-heart"></i></button>
+                        <button class="btn btn-icon card-icon-btn"><i class="fas fa-ellipsis-v"></i></button>
                     </div>               
                 </div>
             </div> 
@@ -440,14 +441,14 @@
             </div>
             <h6>Neque porro quisquam est qui adipisci velit...</h6>
             <div class="card-btns align-center">
-                <button class="btn icon-inside-btn">
+                <button class="btn btn-with-icon">
                     <i class="p1-right fas fa-shopping-cart"></i>Add to cart
                 </button>
                 <div class="m-left-auto">
-                    <button class="btn icon-btn card-icon-btn">
+                    <button class="btn btn-icon card-icon-btn">
                         <i class="far fa-heart"></i>
                     </button>
-                    <button class="btn icon-btn card-icon-btn">
+                    <button class="btn btn-icon card-icon-btn">
                         <i class="fas fa-ellipsis-v"></i>
                     </button>
                 </div>               
@@ -465,7 +466,7 @@
             <h4 class="overlay-text">Sold Out!</h4>
             <div class="overlay-container">
             <img src="./images/croton.jpg" alt="croton" class="card-img">
-            <i class="card-close-btn disabled-btn fas fa-times"></i>
+            <i class="card-close-btn btn-disabled fas fa-times"></i>
             <div class="p1 card-text-container">
                 <div class="card-heading flex-r">
                     <div>
@@ -476,10 +477,10 @@
                 </div>
                 <h6>Neque porro quisquam est qui  adipisci velit...</h6>
                 <div class="card-btns align-center">
-                    <button class="btn icon-inside-btn disabled-btn"><i class="p1-right fas fa-shopping-cart"></i>Add to cart</button>
+                    <button class="btn btn-with-icon btn-disabled"><i class="p1-right fas fa-shopping-cart"></i>Add to cart</button>
                     <div class="m-left-auto">
-                        <button class="btn icon-btn card-icon-btn disabled-btn"><i class="far fa-heart"></i></button>
-                        <button class="btn icon-btn card-icon-btn disabled-btn"><i class="fas fa-ellipsis-v"></i></button>
+                        <button class="btn btn-icon card-icon-btn btn-disabled"><i class="far fa-heart"></i></button>
+                        <button class="btn btn-icon card-icon-btn btn-disabled"><i class="fas fa-ellipsis-v"></i></button>
                     </div>               
                 </div>
             </div> 
@@ -492,7 +493,7 @@
         <h4 class="overlay-text">Sold Out!</h4>
         <div class="overlay-container">
         <img src="./images/croton.jpg" alt="croton" class="card-img">
-        <i class="card-close-btn disabled-btn fas fa-times"></i>
+        <i class="card-close-btn btn-disabled fas fa-times"></i>
         <div class="p1 card-text-container">
             <div class="card-heading flex-r">
                 <div>
@@ -503,14 +504,14 @@
             </div>
             <h6>Neque porro quisquam est qui  adipisci velit...</h6>
             <div class="card-btns align-center">
-                <button class="btn icon-inside-btn disabled-btn">
+                <button class="btn btn-with-icon btn-disabled">
                     <i class="p1-right fas fa-shopping-cart"></i>Add to cart
                 </button>
                 <div class="m-left-auto">
-                    <button class="btn icon-btn card-icon-btn disabled-btn">
+                    <button class="btn btn-icon card-icon-btn btn-disabled">
                         <i class="far fa-heart"></i>
                     </button>
-                    <button class="btn icon-btn card-icon-btn disabled-btn">
+                    <button class="btn btn-icon card-icon-btn btn-disabled">
                         <i class="fas fa-ellipsis-v"></i>
                     </button>
                 </div>               
@@ -528,7 +529,7 @@
                 <h4 class="card-header">Croton Plant</h4>
                 <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed faucibus diam vitae erat ullamcorper elementum. Donec et ante porta, euismod turpis vitae, tincidunt elit.</p>
                 <div class="card-btns">
-                    <button class="btn primary-btn">Learn More </button>          
+                    <button class="btn btn-primary">Learn More </button>          
                 </div>
             </div> 
         </div>
@@ -543,7 +544,7 @@
                 Donec et ante porta, euismod turpis vitae, tincidunt elit.
             </p>
             <div class="card-btns">
-                <button class="btn primary-btn">Learn More </button>          
+                <button class="btn btn-primary">Learn More </button>          
             </div>
         </div> 
     </div>
@@ -567,10 +568,10 @@
             </div>
             <h6>Neque porro quisquam est qui  adipisci velit...</h6>
             <div class="card-btns align-center">
-                <button class="btn icon-inside-btn"><i class="p1-right fas fa-shopping-cart"></i>Add to cart</button>
+                <button class="btn btn-with-icon"><i class="p1-right fas fa-shopping-cart"></i>Add to cart</button>
                 <div class="m-left-auto">
-                    <button class="btn icon-btn card-icon-btn"><i class="far fa-heart"></i></button>
-                    <button class="btn icon-btn card-icon-btn"><i class="fas fa-ellipsis-v"></i></button>
+                    <button class="btn btn-icon card-icon-btn"><i class="far fa-heart"></i></button>
+                    <button class="btn btn-icon card-icon-btn"><i class="fas fa-ellipsis-v"></i></button>
                 </div>               
             </div>
         </div> 
@@ -590,14 +591,14 @@
             </div>
             <h6>Neque porro quisquam est qui  adipisci velit...</h6>
             <div class="card-btns align-center">
-                <button class="btn icon-inside-btn">
+                <button class="btn btn-with-icon">
                     <i class="p1-right fas fa-shopping-cart"></i>Add to cart
                 </button>
                 <div class="m-left-auto">
-                    <button class="btn icon-btn card-icon-btn">
+                    <button class="btn btn-icon card-icon-btn">
                         <i class="far fa-heart"></i>
                     </button>
-                    <button class="btn icon-btn card-icon-btn">
+                    <button class="btn btn-icon card-icon-btn">
                         <i class="fas fa-ellipsis-v"></i>
                     </button>
                 </div>               
@@ -623,8 +624,8 @@
             <p class="card-price">Rs. 499</p>
             <h6>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, adipisci velit...</h6>
             <div class="card-btns align-center">
-                <button class="btn icon-inside-btn"><i class="p1-right fas fa-shopping-cart"></i>Add to cart</button>
-                <button class="m1 btn primary-outline-btn">Move to Wishlist</button>           
+                <button class="btn btn-with-icon"><i class="p1-right fas fa-shopping-cart"></i>Add to cart</button>
+                <button class="m1 btn btn-primary-outline">Move to Wishlist</button>           
             </div>
         </div> 
     </div>
@@ -643,9 +644,9 @@
             <h6>Neque porro quisquam est qui dolorem ipsum quia 
                 dolor sit amet, adipisci velit...</h6>
             <div class="card-btns align-center">
-                <button class="btn icon-inside-btn">
+                <button class="btn btn-with-icon">
                     <i class="p1-right fas fa-shopping-cart"></i>Add to cart</button>
-                <button class="m1 btn primary-outline-btn">Move to Wishlist</button>           
+                <button class="m1 btn btn-primary-outline">Move to Wishlist</button>           
             </div>
         </div> 
     </div>
@@ -690,14 +691,14 @@
     <p class="component-desc">Examples of Textbox, Textbox with error styling, and form is given below.</p>
     <h5 class="component-subheading">Textbox</h5>
         <div class="m1 input-container">
-            <label class="input-label" for="input-text">Username</label>
+            <label class="input-label" for="name">Username</label>
             <input id="name" class="input-field" type="text" placeholder="Username">
         </div>
 <pre>
 <code class="html">
 
     <div class="m1 input-container">
-        <label class="input-label" for="input-text">Username</label>
+        <label class="input-label" for="name">Username</label>
         <input id="name" class="input-field" type="text" placeholder="Username">
     </div>
 
@@ -707,16 +708,16 @@
 
     <h5 class="component-subheading">Textbox with error styling</h5>
         <div class="m1 input-container">
-            <label class="input-label error-label" for="input-text">Username</label>
-            <input class="error-field" type="text" placeholder="Username">
+            <label class="input-label error-label" for="error-name">Username</label>
+            <input id="error-name" class="error-field" type="text" placeholder="Username">
             <span class="validation-error">Not valid</span>
         </div>
 <pre>
 <code class="html">
 
     <div class="m1 input-container">
-        <label class="input-label error-label" for="input-text">Username</label>
-        <input class="error-field" type="text" placeholder="Username">
+        <label class="input-label error-label" for="error-name">Username</label>
+        <input id="error-name" class="error-field" type="text" placeholder="Username">
         <span class="validation-error">Not valid</span>
     </div>
 
@@ -727,17 +728,17 @@
     <h5 class="component-subheading">Form Example</h5>
         <form class="m1 form">
             <div class="input-container">
-                <label class="input-label" for="input-text">Username</label>
+                <label class="input-label" for="username">Username</label>
                 <input class="input-field" type="text" id="username" placeholder="Username">
             </div>
 
             <div class="input-container">
-                <label class="input-label" for="input-field">Phone Number</label>
+                <label class="input-label" for="number">Phone Number</label>
                 <input class="input-field" type="number" id="number" placeholder="Phone Number">
             </div>
 
             <div class="input-container">
-                <label class="input-label" for="input-field">Email</label>
+                <label class="input-label" for="email">Email</label>
                 <input class="input-field" type="email" id="email" placeholder="Email">
             </div>
 
@@ -745,24 +746,24 @@
                 <input class="checkbox-input" type="checkbox"> 
                 <label class="checkbox-label" >Yes, I accept the terms.</label>
             </div>
-            <button class="btn secondary-btn">Submit</button>
+            <button class="btn btn-secondary">Submit</button>
         </form>
 <pre>
 <code class="html">
 
     <form class="m1 form">
         <div class="input-container">
-            <label class="input-label" for="input-text">Username</label>
+            <label class="input-label" for="username">Username</label>
             <input class="input-field" type="text" id="username" placeholder="Username">
         </div>
 
         <div class="input-container">
-            <label class="input-label" for="input-field">Phone Number</label>
+            <label class="input-label" for="number">Phone Number</label>
             <input class="input-field" type="number" id="number" placeholder="Phone Number">
         </div>
 
         <div class="input-container">
-            <label class="input-label" for="input-field">Email</label>
+            <label class="input-label" for="email">Email</label>
             <input class="input-field" type="email" id="email" placeholder="Email">
         </div>
 
@@ -770,7 +771,7 @@
             <input class="checkbox-input" type="checkbox"> 
             <label class="checkbox-label" >Yes, I accept the terms.</label>
         </div>
-        <button class="btn secondary-btn">Submit</button>
+        <button class="btn btn-secondary">Submit</button>
     </form>
 
 </code>

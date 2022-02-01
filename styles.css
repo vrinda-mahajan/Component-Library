@@ -1,11 +1,5 @@
 @import url(src/app.css);
 
-.container {
-    margin: 2rem;
-    background-color: #f0fdcb;
-    /* padding: 1rem; */
-    border-bottom: thin solid var(--box-shadow);
-}
 
 .navigation-container {
     background-color: var(--white-color);
@@ -148,3 +142,10 @@ code {
     padding-bottom: 1.4rem;
     color: var(--black-color);
 }
+.bar-icon{
+    color: var(--black-color);
+    font-size: 3rem;
+    padding: 3.8rem 0 0 3rem;
+    display: none;
+}
+

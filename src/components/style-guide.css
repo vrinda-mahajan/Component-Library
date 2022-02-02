@@ -141,16 +141,19 @@ padding-right: 0.5rem;
 .hide{
     display: none;
 }
-.block {
+.unhide {
+    display: block;
+}
+#unhide {
     display: block;
 }
 /* media queries */
-@media screen and (max-width: 760px) {
+@media screen and (max-width: 768px) {
 	html {
         font-size: 55%;
     }
 }
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 480px) {
 	html {
         font-size: 40%;
     }
@@ -162,11 +165,13 @@ padding-right: 0.5rem;
         flex-direction: column;
         align-items: center;
     }
-
     .sidebar {
         display: none;
     }
-    #bar {
+    #bar-icon {
         display: block;
+    }
+    .doc-content {
+        min-width: 100%;
     }
 }

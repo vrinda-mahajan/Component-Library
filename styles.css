@@ -1,7 +1,151 @@
 @import url(src/app.css);
 
-.container {
-    margin: 2rem;
-    padding: 1rem;
-    border-bottom: thin solid var(--box-shadow);
+
+.navigation-container {
+    background-color: var(--white-color);
+    font-size: 1.6rem;
+    box-shadow: 0 0px 5px var(--box-shadow);
+    width: 100%;
 }
+.sticky-nav{
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+.UI{
+    color: var(--primary-color);
+}
+.nav-logo {
+    margin-right: auto;
+}
+.ui-icon {
+    color: var(--primary-color);
+    font-size: 4rem;
+}
+.ui-name {
+    font-size: 3.2rem;
+}
+.link {
+    color: var(--black-color);
+    padding: 0 0.8rem;
+    font-weight: 500;
+}
+.nav-icon {
+    font-size: 2.2rem;
+}
+.link:hover{
+    color: var(--primary-color);
+}
+
+/* header */
+.landing-header {
+    position: relative;
+    margin-top: 4rem;
+}
+.landing-text {
+    margin: 3rem 5rem;
+}
+.landing-heading{
+    color: var(--heading-color);
+    font-size: 4.5rem;
+}
+.landing-para {
+    font-size: 2rem;
+    font-weight: 500;
+    padding-top: 1rem;
+    line-height: 3rem;
+}
+.landing-btns{
+    margin-top: 2rem;
+}
+.landing-img {
+    width: 50%;
+}
+
+/* section */
+.install-section {
+    margin: 5rem;
+    padding: 3rem 0;
+}
+.install-heading {
+    color: var(--heading-color);
+}
+.install-text{
+    padding-top: 1rem;
+    letter-spacing: 1px;
+    line-height: 2.2rem;
+}
+.install-code {
+    font-size: 1.6rem;
+    line-height: 2.5rem;
+    width: 50%;
+}
+
+code {
+    margin: 4rem 0;
+    font-size: 1.6rem;
+    border-radius: 1rem;
+}
+
+/* footer */
+.footer {
+    background-color: var(--primary-color2);
+    border-radius: 2rem 2rem 0 0;
+    color: var(--white-color);
+    text-align: center;
+    padding: 3rem;
+}
+.footer-icons {
+    color: var(--white-color);
+    display: inline;
+    font-size: 2.4rem;
+}
+.red-color {
+    color: var(--error-color);
+}
+
+/* sidebar */
+
+.sidebar{
+    width: 25%;
+    height: 82vh;
+    overflow-y: scroll;
+    position: sticky;
+    top: 9rem;
+    font-size: 1.6rem;
+    padding: 0 1rem;
+}
+.sidebar::-webkit-scrollbar{
+    display: none;
+}
+.sidebar-heading{
+    margin-bottom: 1rem;
+    padding: 1.2rem 0;
+    color: var(--heading-color);
+    font-size: 2.2rem;
+    font-weight: 600;
+    border-bottom: thin solid;
+}
+.doc-content {
+    width: 70%;
+    padding: 5rem;
+}
+.component-heading {
+    margin-top: 5rem;
+    padding: 0.8rem 0;
+}
+.component-desc {
+    font-size: 1.8rem;
+}
+.component-subheading {
+    padding-top: 2rem;
+    padding-bottom: 1.4rem;
+    color: var(--black-color);
+}
+.bar-icon{
+    color: var(--black-color);
+    font-size: 3rem;
+    padding: 3.8rem 0 0 3rem;
+    display: none;
+}
+

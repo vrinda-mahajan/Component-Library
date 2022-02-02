@@ -1,64 +1,65 @@
 .btn {
     padding: 1rem 2rem;
+    margin: 1rem 0;
     border: none;
     border-radius: 4px;
     letter-spacing: 1px;
     cursor: pointer;
 }
 /* primary button */
-.primary-btn {
+.btn-primary {
     background-color: var(--primary-color2);
     color: var(--white-color);
 }
-.primary-btn:hover {
-    background-color: var(--btn-primary-hover-color);
+.btn-primary:hover {
+    background-color: var(--primary-hover-color);
 }
 /* primary outline btn */
-.primary-outline-btn {
+.btn-primary-outline {
     background-color: var(--white-color);
     color: var(--primary-color2);
     border: thin solid var(--primary-color2);
 }
-.primary-outline-btn:hover {
-    background-color: var(--btn-primary-hover-color);
+.btn-primary-outline:hover {
+    background-color: var(--primary-hover-color);
     color: var(--white-color);
 }
 /* secondary btn */
-.secondary-btn {
+.btn-secondary {
     background-color: var(--primary-color);
     color: var(--white-color);
 }
-.secondary-btn:hover {
-    background-color: var(--btn-sec-hover-color);
+.btn-secondary:hover {
+    background-color: var(--sec-hover-color);
 }
 /* secondary outline btn */
-.secondary-outline-btn {
+.btn-secondary-outline {
     background-color: var(--white-color);
     color: var(--primary-color);
     border: thin solid var(--primary-color);
 }
-.secondary-outline-btn:hover {
+.btn-secondary-outline:hover {
     background-color: var(--primary-color);
-    color: var(--text-color);
+    color: var(--white-color);
 }
 /* link button */
-.link-btn {
+.btn-link {
     background-color: var(--white-color);
     color: var(--primary-color2);
 }
-.link-btn:hover {
+.btn-link:hover {
     color: var(--primary-color);
 }
-.underline-link-btn {
+.btn-link-underline {
     background-color: var(--white-color);
     color: var(--primary-color2);
 }
-.underline-link-btn:hover {
+.btn-link-underline:hover {
     color: var(--primary-color);
     text-decoration: underline;
 }
 /* icon button */
-.icon-btn {
+.btn-icon {
     background-color: var(--white-color);
     border-radius: 50%;
     height: 4rem;
@@ -67,20 +68,20 @@
     color: var(--primary-color2);
     font-size: 2rem;
 }
-.icon-btn:hover {
+.btn-icon:hover {
     background-color: var(--box-shadow);
-    color: var(--btn-primary-hover-color);
+    color: var(--primary-hover-color);
 }
 /* icon inside button */
-.icon-inside-btn {
+.btn-with-icon {
     background-color: var(--primary-color2);
     color: var(--white-color);
 }
-.icon-inside-btn:hover {
-    background-color: var(--btn-primary-hover-color);
+.btn-with-icon:hover {
+    background-color: var(--primary-hover-color);
 }
 /* floating button */
-.floating-btn {
+.btn-floating {
     border-radius: 50%;
     background-color: var(--primary-color2);
     color: var(--white-color);
@@ -89,11 +90,11 @@
     padding: 1rem;
     box-shadow:0px 0px 5px var(--box-shadow);
 }
-.floating-btn:hover{
-    background-color: var(--btn-primary-hover-color);
+.btn-floating:hover{
+    background-color: var(--primary-hover-color);
 }
 
-.disabled-btn{
+.btn-disabled{
     opacity: 0.65;
     pointer-events: none;
 }

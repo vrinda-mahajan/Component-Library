@@ -4,9 +4,69 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha512-Fo3rlrZj/k7ujTnHg4CGR2D7kSs0v4LLanw2qksYuRlEzO+tcaEPQogQ0KaoGN26/zrn20ImR1DfuLWnOo7aBA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/styles/atom-one-dark.min.css">
+    <link rel="stylesheet" href="styles.css" />
     <title>Flora UI | Home</title>
 </head>
 <body>
-    
+
+    <!-- Navbar -->
+    <nav class="flex-r navigation-container sticky-nav">
+        <div class="m1 p2 nav-logo flex-r">
+            <i class="ui-icon fab fa-pagelines"></i>
+            <span class="ui-name">Flora<span class="UI">UI</span> </span>
+        </div>
+        <ul class="m1 p1 nav-pills list-non-bullet align-center">
+            <li class="p1"><a class="link text-decor-none" href="./index.html">Home</a></li>
+            <li class="p1"><a class="link text-decor-none" href="./docs.html">Documentation</a></li>
+            <li class="p1"><a class="link nav-icon" href="https://github.com/vrinda-mahajan"><i class="fab fa-github"></i></a></li>
+            <li class="p1"><a class="link nav-icon" href="https://twitter.com/vrinda_mahajan"><i class="fab fa-twitter"></i></a></li>
+            <li class="p1"><a class="link nav-icon" href="https://www.linkedin.com/in/vrinda-mahajan-7a2b2a20b/"><i class="fab fa-linkedin-in"></i></a></li>
+        </ul>
+    </nav>
+
+    <!-- Header -->
+    <header class="flex-r landing-header">
+        <div class="landing-text">
+            <h1 class="landing-heading">Build Your Custom UI.</h1>
+            <p class="landing-para">A free Component Library build using CSS that provides ready-to-use frontend components and powerful utility classes that you can easily combine to build beautiful websites.</p>
+            <div class="landing-btns">
+                <a href="#installation"><button class="m1-right btn btn-secondary-outline">Installation</button></a>
+                <a href="docs.html"><button class="btn btn-secondary">Documentation</button></a>
+            </div>
+        </div>
+        <img class="landing-img" src="./images/floraUi.svg" alt="Flora UI">
+    </header>
+
+    <!-- Installation section -->
+    <section id="installation" class="align-center install-section">
+    <div>
+        <h3 class="install-heading">Installation</h3>
+        <p class="install-text">Copy and paste the code in the head tag of your html document. So that you can style your components by just adding class names to your html elements.<br><br>To know about the styled components, their variations, read the documentation.</p>
+        <a href="docs.html"><button class="btn btn-secondary m2-top-bottom">Documentation</button></a>
+    </div>
+    <div class="m2-left install-code">
+        <pre>
+            <code class="html">
+    <!-- Installation Link -->
+    <link rel="stylesheet" href="https://flora-ui.netlify.app/src/app.css">
+            </code>
+        </pre>
+    </div>
+    </section>
+
+    <footer class="footer">
+        <p>Made with <i class="red-color fas fa-heart"></i> by Vrinda Mahajan </p>
+        <ul class="m2 list-non-bullet">
+            <li class="p1 inline"><a class="footer-icons" href="https://github.com/vrinda-mahajan"><i class="fab fa-github"></i></a></li>
+            <li class="p1 inline"><a class="footer-icons" href="https://twitter.com/vrinda_mahajan"><i class="fab fa-twitter"></i></a></li>
+            <li class="p1 inline"><a class="footer-icons" href="https://www.linkedin.com/in/vrinda-mahajan-7a2b2a20b/"><i class="fab fa-linkedin-in"></i></a></li>
+        </ul>
+        <div>© copyright 2022 Flora UI</div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.4.0/highlight.min.js"></script>
+    <script src="index.js"></script>
 </body>
 </html>

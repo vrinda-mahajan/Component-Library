@@ -4,8 +4,8 @@
     font-weight: 500;
     letter-spacing: 1px;
     margin: 0.7rem 0;
-    padding: 0.7rem;
-    width: 35rem;
+    padding: 1.6rem;
+    width: 40rem;
 }
 .primary-alert {
     background-color: var(--primary-color);

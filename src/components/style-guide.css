@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
 html {
     font-size: 62.5%;
+    scroll-behavior: smooth;
 }
 body {
   font-family: "Montserrat", sans-serif;
@@ -35,8 +36,8 @@ body {
     --error-color:#df212b;
 
     /* button */
-    --btn-primary-hover-color: #365a45;
-    --btn-sec-hover-color:#52a14f;
+    --primary-hover-color: #365a45;
+    --sec-hover-color:#52a14f;
 }
 /* typography */
 h1 {
@@ -92,6 +93,15 @@ padding-right: 0.5rem;
 .m2 {
     margin: 2rem;
 }
+.m2-top-bottom {
+    margin: 2rem 0;
+}
+.m1-right {
+    margin-right: 1rem;
+}
+.m2-left {
+    margin-left: 2rem;
+}
 .m-left-auto {
     margin-left: auto;
 }
@@ -125,8 +135,14 @@ padding-right: 0.5rem;
     justify-content: center;
     text-align: center;
 } 
+.inline {
+    display: inline;
+}
 .hide{
     display: none;
+}
+.block {
+    display: block;
 }
 /* media queries */
 @media screen and (max-width: 760px) {
@@ -137,5 +153,20 @@ padding-right: 0.5rem;
 @media screen and (max-width: 450px) {
 	html {
         font-size: 40%;
+    }
+    .nav-icon {
+        display: none;
+    }
+    .landing-header,.install-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sidebar {
+        display: none;
+    }
+    #bar {
+        display: block;
     }
 }

@@ -71,4 +71,4 @@ Following types of inputs are avaliable in Flora UI
 * Textbox with error styling
 * A Form Example
 
-![]https://github.com/vrinda-mahajan/Component-Library/blob/responsive/images/flora-ui.webp
+![](https://github.com/vrinda-mahajan/Component-Library/blob/responsive/images/flora-ui.gif)

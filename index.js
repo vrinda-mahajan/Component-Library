@@ -13,6 +13,7 @@
 }
 const barIcon = document.querySelector('.bar-icon');
 const sidebar = document.querySelector(".mobile-sidebar");
+const documentation = document.querySelector(".doc-content");
 let display = true;
 barIcon.addEventListener("click",() => {
   if(display==true){
@@ -20,6 +21,13 @@ barIcon.addEventListener("click",() => {
     display = false;
   }else{
     sidebar.style.display="none";
+    display = true;
+  }
+})
+
+documentation.addEventListener("click", () => {
+  if (display===false) {
+    sidebar.style.display = "none"
     display = true;
   }
 })

@@ -174,4 +174,7 @@ padding-right: 0.5rem;
     .doc-content {
         min-width: 100%;
     }
+    .install-code {
+        min-width: 100%;
+    }
 }

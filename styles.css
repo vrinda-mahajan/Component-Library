@@ -163,3 +163,27 @@ code {
 }
 
 
+@media screen and (max-width: 480px) {
+    .nav-icon {
+        display: none;
+    }
+    .landing-header,.install-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .sidebar {
+        display: none;
+    }
+    #bar-icon {
+        display: block;
+    }
+    .doc-content {
+        min-width: 100%;
+    }
+    .install-code {
+        min-width: 100%;
+    }
+}
+
+

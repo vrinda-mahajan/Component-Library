@@ -69,6 +69,7 @@ Input are used to take input from the user.They let the user interact with the a
 Following types of inputs are avaliable in Flora UI
 * Textbox
 * Textbox with error styling
+* Textbox with icon
 * A Form Example
 
 ![](https://github.com/vrinda-mahajan/Component-Library/blob/responsive/images/flora-ui.gif)

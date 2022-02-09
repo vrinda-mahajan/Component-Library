@@ -1,0 +1,31 @@
+.list-container{
+    padding: 3rem;
+    font-size: 1.6rem;
+}
+.list-style-circle {
+    list-style-type: circle;
+}
+.list-style-square {
+    list-style-type: square;
+}
+.list-style-upper-roman {
+    list-style: upper-roman;
+}
+.list-style-lower-roman {
+    list-style: lower-roman;
+}
+.list-style-upper-alpha {
+    list-style: upper-alpha;
+}
+.list-style-lower-alpha {
+    list-style: lower-alpha;
+}
+.notification {
+    background-color: var(--white-color);
+    border: 1px solid var(--black-color);
+    border-radius: 5px;
+    font-size: 1.6rem;
+    padding: 1.5rem;
+    width: 30%;
+    margin: 1rem;
+}

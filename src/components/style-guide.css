@@ -62,7 +62,48 @@ h6 {
 p {
     font-size: 1.6rem;
 }
-
+.text-xlg {
+    font-size: 2rem;
+}
+.text-lg {
+    font-size: 1.8rem;
+}
+.text-sm {
+    font-size: 1.4rem;
+}
+.text-xsm {
+    font-size: 1.2rem;
+}
+.text-left {
+    text-align: left;
+}
+.text-center {
+    text-align: center;
+}
+.text-right {
+    text-align: right;
+}
+.text-strike-through {
+    text-decoration: line-through;
+}
+.text-underline {
+    text-decoration: underline;
+}
+.text-bold-weight {
+    font-weight: 700;
+}
+.text-regular-weight {
+    font-weight: 500;
+}
+.text-light-weight {
+    font-weight: 300;
+}
+.text-primary-color {
+    color: var(--primary-color);
+}
+.text-seconadry-color{
+    color: var(--primary-color2);
+}
 /* gutter */
 .p-right {
 padding-right: 0.5rem;
@@ -93,6 +134,9 @@ padding-right: 0.5rem;
 }
 .m2 {
     margin: 2rem;
+}
+.m1-top-bottom {
+    margin: 1rem 0;
 }
 .m2-top-bottom {
     margin: 2rem 0;

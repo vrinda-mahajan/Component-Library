@@ -1,0 +1,32 @@
+
+/* rating badge */
+.rating-badge{
+    font-size: 1.2rem;
+    font-weight: 500;
+    background: var(--box-shadow);
+    width: fit-content;
+    padding: 2px;
+}
+.rating-badge-star {
+    color: var(--rating-color);
+}
+
+/* rating form */
+.rating-form {
+    display: flex;
+    flex-direction: row-reverse;
+}
+.rating-input {
+    display: none;
+}
+.rating-label {
+    color: var(--box-shadow);
+    cursor: pointer;
+    font-size: 2rem;
+}
+.rating-input:checked ~ .rating-label{
+    color: var(--rating-color);
+}
+.rating-input:hover ~ .rating-label {
+    color: var(--warning-bg-color);
+}

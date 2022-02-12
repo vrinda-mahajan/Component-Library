@@ -1215,6 +1215,117 @@
 </pre>
     </section>
 
+    <!-- Rating Component -->
+    <section class="Rating">
+    <h2 class="component-heading">Rating</h2>
+    <p class="component-desc">Rating components can be used as read-only badge and can be used in reviews section as form too.</p>
+    <h5 class="component-subheading">Rating Components</h5>
+    <div class="component-container flex-r">
+        <!-- Rating Form -->
+        <form class="rating-form">
+            <input class="rating-input" type="radio" id="star-1" name="star" >
+            <label for="star-1" class="rating-label"><i class="fa-solid fa-star"></i></label>
+
+            <input class="rating-input" type="radio" id="star-2" name="star" >
+            <label for="star-2" class="rating-label"><i class="fa-solid fa-star"></i></label>
+
+            <input class="rating-input" type="radio" id="star-3" name="star" >
+            <label for="star-3" class="rating-label"><i class="fa-solid fa-star"></i></label>
+
+            <input class="rating-input" type="radio" id="star-4" name="star" >
+            <label for="star-4" class="rating-label"><i class="fa-solid fa-star"></i></label> 
+
+            <input class="rating-input" type="radio" id="star-5" name="star" >
+            <label for="star-5" class="rating-label"><i class="fa-solid fa-star"></i></label>
+        </form>
+
+        <!-- Rating Badge -->
+        <div class="m2-left rating-badge align-center">4 <i class="rating-badge-star fa-solid fa-star"></i> | 22</div>
+    </div>
+<pre>
+    <code class="html">
+        <!-- Rating Form -->
+        <form class="rating-form">
+            <input class="rating-input" type="radio" id="star-1" name="star" >
+            <label for="star-1" class="rating-label"><i class="fa-solid fa-star"></i></label>
+
+            <input class="rating-input" type="radio" id="star-2" name="star" >
+            <label for="star-2" class="rating-label"><i class="fa-solid fa-star"></i></label>
+
+            <input class="rating-input" type="radio" id="star-3" name="star" >
+            <label for="star-3" class="rating-label"><i class="fa-solid fa-star"></i></label>
+
+            <input class="rating-input" type="radio" id="star-4" name="star" >
+            <label for="star-4" class="rating-label"><i class="fa-solid fa-star"></i></label> 
+
+            <input class="rating-input" type="radio" id="star-5" name="star" >
+            <label for="star-5" class="rating-label"><i class="fa-solid fa-star"></i></label>
+        </form>
+
+        <!-- Rating badge -->
+        <div class="rating-badge align-center"> 
+            4<i class="rating-badge-star fa-solid fa-star"></i> | 22
+        </div>
+    </code>
+</pre>
+<hr>
+    </section>
+
+    <!-- Toast Component -->
+
+    <section class="Toast">
+        <h2 class="component-heading">Toast</h2>
+        <p class="component-desc">Toasts provide brief feedback about an operation through a message. Toasts contain a single line of text directly related to the operation performed.</p>
+
+        <h5 class="component-subheading">Simple Toasts</h5>
+        <div class="component-container flex-wrap">
+            <div class="toast toast-success text-lg">Saved successfully!</div>
+            <div class="m2-left toast toast-error text-lg">Try Again Later!</div>
+            <div class="m2-left toast toast-info text-lg">Info Toast</div>
+        </div>
+<pre>
+    <code class="html">
+        <div class="toast toast-success text-lg">Saved successfully!</div>
+        <div class="toast toast-error text-lg">Try Again Later!</div>
+        <div class="toast toast-info text-lg">Info Toast</div>
+    </code>
+</pre>
+<hr>
+
+        <h5 class="component-subheading">Toast with close button</h5>
+        <div class="component-container">
+            <div class="toast toast-info align-center">
+                <p class="text-lg">Can't send photo.</p>
+                <i class="toast-icon fas fa-times"></i>
+            </div>
+        </div>
+<pre>
+    <code class="html">
+        <div class="toast toast-info align-center">
+            <p class="text-lg">Can't send photo.</p>
+            <i class="toast-icon fas fa-times"></i>
+        </div>
+    </code>
+</pre>
+<hr>
+
+        <h5 class="component-subheading">Live Demo</h5>
+        <p class="component-desc">Click on below open toast button to open a toast.It will disappear after 5 seconds.</p>
+        <button class="btn btn-primary open-toast-btn m2-top-bottom">Open Toast</button>
+        <div class="show-toast toast toast-info align-center">
+            <p class="text-lg">Added to Bag.</p>
+            <i class="toast-close-btn toast-icon fas fa-times"></i>
+        </div>
+<pre>
+    <code class="html">
+        <div class="show-toast toast toast-info align-center">
+            <p class="text-lg">Added to Bag.</p>
+            <i class="toast-close-btn toast-icon fas fa-times"></i>
+        </div> 
+    </code>
+</pre>
+<hr>
+    </section>
     </div>
     </main>
     

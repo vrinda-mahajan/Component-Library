@@ -1,0 +1,36 @@
+
+.toast{
+    padding: 1.6rem;
+    width: fit-content;
+    border-radius: 5px;
+    font-weight: 500;
+}
+
+.toast-icon {
+    cursor: pointer;
+    font-size: 2rem;
+    color: var(--text-color);
+    padding-left: 2rem;
+}
+
+.toast-success {
+    background-color: var(--success-bg-color);
+    color: var(--success-color);
+}
+
+.toast-error {
+    background-color: var(--error-bg-color);
+    color: var(--error-color);
+}
+
+.toast-info {
+    background-color: var(--info-bg-color) ;
+    color: var(--info-color);
+}
+
+.show-toast {
+    display: none;
+    position: fixed;
+    top: 12rem;
+    right: 4rem;
+}

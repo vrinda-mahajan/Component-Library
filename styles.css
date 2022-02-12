@@ -114,9 +114,6 @@ code {
     font-size: 1.6rem;
     padding: 0 1rem;
 }
-.sidebar::-webkit-scrollbar{
-    display: none;
-}
 .sidebar-heading{
     margin-bottom: 1rem;
     padding: 1.2rem 0;

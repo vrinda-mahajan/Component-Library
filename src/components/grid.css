@@ -1,0 +1,27 @@
+
+.grid {
+    display: grid;
+    gap: 1rem;
+}
+
+.grid-2-col {
+    grid-template-columns: repeat(2,1fr);
+}
+
+.grid-2-row {
+    grid-template-rows: repeat(2,1fr);
+}
+
+.grid-3-col {
+    grid-template-columns: repeat(3,1fr);
+}
+
+.grid-3-row {
+    grid-template-rows: repeat(3,1fr);
+}
+
+.grid-item {
+    background-color: var(--primary-color);
+    border-radius: 1rem;
+    padding: 5rem;
+}

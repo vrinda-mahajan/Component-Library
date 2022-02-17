@@ -1,0 +1,21 @@
+
+.slider {
+    appearance: none;
+    height: 8px;
+    opacity: 0.7; 
+    background: var(--text-color);
+    border-radius: 5px;
+}
+
+.slider::-webkit-slider-thumb {
+    appearance: none;
+    background: var(--primary-color);
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+}
+
+.slider:hover {
+    opacity: 1;
+}
+

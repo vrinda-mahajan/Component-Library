@@ -5,6 +5,7 @@
     letter-spacing: 1px;
     cursor: pointer;
 }
+
 /* primary button */
 .btn-primary {
     background-color: var(--primary-color2);
@@ -13,6 +14,7 @@
 .btn-primary:hover {
     background-color: var(--primary-hover-color);
 }
+
 /* primary outline btn */
 .btn-primary-outline {
     background-color: var(--white-color);
@@ -23,6 +25,7 @@
     background-color: var(--primary-hover-color);
     color: var(--white-color);
 }
+
 /* secondary btn */
 .btn-secondary {
     background-color: var(--primary-color);
@@ -31,6 +34,7 @@
 .btn-secondary:hover {
     background-color: var(--sec-hover-color);
 }
+
 /* secondary outline btn */
 .btn-secondary-outline {
     background-color: var(--white-color);
@@ -41,6 +45,7 @@
     background-color: var(--primary-color);
     color: var(--white-color);
 }
+
 /* link button */
 .btn-link {
     background-color: var(--white-color);
@@ -57,8 +62,9 @@
     color: var(--primary-color);
     text-decoration: underline;
 }
-/* icon button */
-.btn-icon {
+
+/* icon button with background */
+.btn-icon1 {
     background-color: var(--white-color);
     border-radius: 50%;
     height: 4rem;
@@ -67,10 +73,24 @@
     color: var(--primary-color2);
     font-size: 2rem;
 }
-.btn-icon:hover {
+.btn-icon1:hover {
     background-color: var(--box-shadow);
     color: var(--primary-hover-color);
 }
+
+/* icon button with hover */
+.btn-icon2 {
+    background: none;
+    height: 4rem;
+    width: 4rem;
+    padding: 0.5rem;
+    color: var(--primary-color2);
+    font-size: 2rem;
+}
+.btn-icon2:hover {
+    color: var(--primary-hover-color);
+}
+
 /* icon inside button */
 .btn-with-icon {
     background-color: var(--primary-color2);
@@ -79,6 +99,7 @@
 .btn-with-icon:hover {
     background-color: var(--primary-hover-color);
 }
+
 /* floating button */
 .btn-floating {
     border-radius: 50%;
@@ -93,6 +114,7 @@
     background-color: var(--primary-hover-color);
 }
 
+/* disabled btn */
 .btn-disabled{
     opacity: 0.65;
     pointer-events: none;

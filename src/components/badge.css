@@ -1,15 +1,15 @@
 .badge-container {
   position: relative;
   display: inline-block;
-  /* margin: 1.6rem; */
 }
 .badge-icon {
   font-size: 2.4rem;
   color: var(--black-color);
 }
-.text-badge {
+.badge-text {
   background-color: var(--primary-color);
   color: var(--white-color);
+  cursor: default;
   padding: 0.4rem;
   position: absolute;
   font-size: 1.2rem;
@@ -27,37 +27,35 @@
   position: absolute;
   text-align: center;
 }
-.img-badge {
+.badge-img {
     border:medium solid var(--white-color);
 }
 /* badge alingment */
-.right-badge {
+.badge-right {
     top: -0.7rem;
     right: -0.7rem;
 }
-.left-badge {
+.badge-left {
     top: -0.7rem;
     left: -0.7rem;
 }
-.bottom-left-badge {
+.badge-bottom-left {
     bottom: -0.3rem;
     right: -0.3rem;
 }
   
 /* badge-sizes */
-.lg-badge {
+.badge-lg {
   width: 2.6rem;
   height: 2.6rem;
-  line-height: 2rem;
   font-size: 1.6rem;
 }
-.md-badge {
+.badge-md {
   width: 2.2rem;
   height: 2.2rem;
-  line-height: 1.5rem;
   font-size: 1.2rem;
 }
-.sm-badge {
+.badge-sm {
   width: 1.6rem;
   height: 1.6rem;
   line-height: 1.6rem;

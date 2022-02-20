@@ -13,7 +13,7 @@
     padding-bottom: 0.5rem;
     color: var(--primary-color2);
 }
-.error-label {
+.input-error-label {
     color: var(--error-color);
 }
 .input-field {
@@ -23,7 +23,7 @@
     outline: none;
     border: 1px solid var(--text-color);
 }
-.error-field {
+.input-error-field {
     width: 100%;
     padding: 2rem;
     border-radius: 4px;

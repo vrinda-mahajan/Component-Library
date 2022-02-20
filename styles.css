@@ -22,6 +22,7 @@
 }
 .ui-name {
     font-size: 3.2rem;
+    color: var(--heading-color);
 }
 .link {
     color: var(--black-color);
@@ -147,13 +148,14 @@ code {
 .bar-icon{
     color: var(--black-color);
     font-size: 3rem;
-    padding: 3.8rem 0 0 3rem;
+    padding: 3rem 0 0 3rem;
     display: none;
+    margin-right: auto;
 }
 .mobile-sidebar {
     height: 90vh;
     overflow-y: scroll;
-    top: 9rem;
+    top: 7.5rem;
     font-size: 1.6rem;
     padding: 0 1rem;
     width: 40%;
@@ -167,16 +169,16 @@ code {
 
 
 @media screen and (max-width: 480px) {
-    .nav-icon {
+    .nav-logo,.navigation-icon,.sidebar {
         display: none;
+    }
+    .landing-nav-logo{
+        display: block;
     }
     .landing-header,.install-section {
         display: flex;
         flex-direction: column;
         align-items: center;
-    }
-    .sidebar {
-        display: none;
     }
     #bar-icon {
         display: block;

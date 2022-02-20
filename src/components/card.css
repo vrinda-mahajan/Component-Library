@@ -5,24 +5,26 @@
     box-shadow: 0 0 1rem var(--box-shadow);
 }
 
-.vertical-card1-container {
+.card-vertical-container1 {
     width: 22rem;
 }
-.vertical-card1-container img{
+.card-vertical-container1 img{
     width: 22rem;
     height: 22rem;
 }
-.vertical-card2-container {
+
+.card-vertical-container2 {
     width: 25rem;
 }
-.vertical-card2-container img{
+.card-vertical-container2 img{
     width: 25rem;
     height: 20rem;
 }
-.horizontal-card-container {
+
+.card-horizontal-container {
     width: 55rem;
 }
-.horizontal-card-container img {
+.card-horizontal-container img {
     width: 15rem;
     height: 15rem;
     border-radius: 1rem;
@@ -70,6 +72,6 @@
 .overlay-text {
     position: absolute;
     top: 15rem;
-    left: 9rem;
+    left: 7rem;
     color: var(--black-color);
 }

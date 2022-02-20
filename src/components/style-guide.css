@@ -41,6 +41,7 @@ body {
     --primary-hover-color: #365a45;
     --sec-hover-color:#52a14f;
 }
+
 /* typography */
 h1 {
     font-size: 4rem;
@@ -63,11 +64,16 @@ h6 {
 p {
     font-size: 1.6rem;
 }
+
+/* Text sizes */
 .text-xlg {
     font-size: 2rem;
 }
 .text-lg {
     font-size: 1.8rem;
+}
+.text-md {
+    font-size: 1.6rem;
 }
 .text-sm {
     font-size: 1.4rem;
@@ -75,6 +81,8 @@ p {
 .text-xsm {
     font-size: 1.2rem;
 }
+
+/* Text Alignment */
 .text-left {
     text-align: left;
 }
@@ -84,6 +92,8 @@ p {
 .text-right {
     text-align: right;
 }
+
+/* Extra Text Utilities */
 .text-strike-through {
     text-decoration: line-through;
 }
@@ -105,7 +115,8 @@ p {
 .text-seconadry-color{
     color: var(--primary-color2);
 }
-/* gutter */
+
+/* gutter and spaces */
 .p-right {
 padding-right: 0.5rem;
 }
@@ -154,6 +165,7 @@ padding-right: 0.5rem;
 .m-right-auto {
     margin-right: auto;
 }
+
 /* utils */
 .text-decor-none {
     text-decoration: none;
@@ -161,16 +173,18 @@ padding-right: 0.5rem;
 .list-non-bullet {
   list-style: none;
 }
+
+/* Flex Utils */
 .flex-r {
     display: flex;
-}
-.flex-wrap {
-    display: flex;
-    flex-wrap: wrap;
 }
 .flex-c {
     display: flex;
     flex-direction: column;
+}
+.flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
 }
 .align-center {
     display: flex;

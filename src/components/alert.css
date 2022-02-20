@@ -7,23 +7,23 @@
     padding: 1.6rem;
     width: 40rem;
 }
-.primary-alert {
+.alert-primary {
     background-color: var(--primary-color);
     color: var(--primary-color2);
 }
-.info-alert {
+.alert-info {
     background-color: var(--info-bg-color) ;
     color: var(--info-color);
 }
-.success-alert {
+.alert-success {
     background-color: var(--success-bg-color);
     color: var(--success-color);
 }
-.warning-alert {
+.alert-warning {
     background-color:var(--warning-bg-color);
     color: var(--warning-color);
 }
-.error-alert {
+.alert-error {
     background-color: var(--error-bg-color);
     color: var(--error-color);
 }
